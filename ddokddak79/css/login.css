@@ -1,0 +1,92 @@
+@import url('../common/core.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;
+    list-style-type:none;
+    text-decoration:none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color:black;
+}
+.headerWrap{
+    margin-top:12vw;
+    padding:0;
+    width:100%;
+}
+.headerWrap>a>h1{
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    margin:3vw auto;
+    color:white;
+}
+.formWrap{
+    width:17%;
+    margin:0 auto;
+}
+.formWrap>.input01{
+    margin:0 auto;
+}
+.formWrap>.input01>input{
+    font-size:14px;
+    color:white;
+    padding:12px 5px;
+    margin-bottom:0.5vw;
+    border-color:rgba(255,255,255,0.2);
+    border-radius:10px;
+}
+.formWrap>.input02{
+    margin-bottom:1vw;
+    display:flex;
+}
+.formWrap>.input02>.side{
+    display:flex;
+}
+.side>img{
+    width:20px;
+    height:20px;
+    margin-right:0.3vw;
+}
+.side>p{
+    font-size:14px;
+    color:white;
+}
+.formWrap>.input03{
+    width:330px;
+    height:50px;
+    background-color:#e31937;
+    border-radius:10px;
+    border:none;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+}
+.formWrap>.input04{
+    width:100%;
+    height:auto;
+    margin:2vw auto;;
+}
+.formWrap>.input04>ul{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:nowrap;
+}
+.formWrap>.input04>ul>li{
+    border-right:1px solid white;
+    border-color:rgba(255,255,255,0.5);
+    text-align:center;
+}
+.input04>ul>li:last-child{
+    border-right:none;
+}
+.input04>ul>li>a{
+    font-size:12px;
+    font-weight:bold;
+    color:white;
+}

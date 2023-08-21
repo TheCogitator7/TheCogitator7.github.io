@@ -1,0 +1,158 @@
+@import url('ddokddak.css');
+
+/* ==================== main ==================== */
+
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+}
+.mainWrap{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.mainWrap>h2{
+    font-size:1.2w;
+    color:white;
+    text-align:center;
+    margin:3vw auto;
+}
+.mainWrap>.menuWrap{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:nowrap;
+    width:60%;
+    margin:1vw auto;
+}
+.menuWrap>.menuPic{
+    width:50%;
+    background-color:white;
+}
+.menuPic>img{
+    width:93%;
+    height:auto;
+    display:block;
+    margin:1.3vw auto;
+    align-items:center;
+}
+.menuWrap>.menuEx{
+    width:50%;
+    padding:3vw;
+}
+.menuEx>h2{
+    font-size:36px;
+    font-weight:bold;
+    color:white;
+    margin:1vw auto;
+}
+.menuEx>h6{
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    margin:1.5vw auto;
+}
+.menuEx>.nutri{
+    width:100%;
+    height:100px;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    overflow:hidden;
+    margin-bottom:2vw;
+}
+.nutri>.nutri1{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    background-color:#454545;
+    margin-left:5px;
+}
+.nutri1:first-child{background-color:#773e56;}
+.nutri1:nth-child(2){background-color:#806433;}
+.nutri1:nth-child(3){background-color:#66663d;}
+.nutri1:nth-child(4){background-color:#3e6c82;}
+.nutri1:last-child{background-color:#42436f;}
+
+.nutri1>p{
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle;
+    margin:10px auto;
+}
+
+.menuEx>.dis1{
+    font-size:16px;
+    color:white;
+    line-height:24px;
+    margin-bottom:2vw;
+}
+.menuEx>.dis2{
+    font-size:12px;
+    color:white;
+    margin-bottom:0.5vw;
+}
+.menuEx>.dis3{
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+    margin-left:150px;
+    margin-bottom:2vw;
+    padding:0.5vw;
+}
+.menuEx>.dis4{
+    font-size:12px;
+    color:white;
+    margin-bottom:0.5vw;
+}
+.menuEx>.dis5{
+    font-size:12px;
+    color:white;
+}
+
+/* ===== 다음 메뉴 선택 ===== */
+.otherMenu{
+    /* border:1px solid red; */
+    width:60%;
+    margin:0 auto;
+    padding:1vw 0.5vw;
+}
+.otherMenu>p{
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+}
+.nextMenu{
+    width:60%;
+    margin:1vw auto 2vw;
+    display:flex;   
+}
+.nextMenu>.nextMenu1{
+    width:50%;
+    display:flex;
+    justify-content:flex-start;
+}
+.nextMenu1>img{
+    width:50%;
+}
+.nextMenu1>div{
+    /* border:1px solid red; */
+    height:40px;
+    margin:4vw auto;
+}
+.nextMenu1 p{
+    color:white;
+    font-size:16px;
+    text-indent:30px;
+}
+/* ===== 다음 메뉴 선택 ===== */
+
+
+/* ==================== main ==================== */

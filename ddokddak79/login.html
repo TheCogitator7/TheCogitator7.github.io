@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="css/login.css">
+        <script src="/common/prefixfree.min.js"></script>
+    </head>
+    <body>
+        <!-- ========== header part ========== -->
+        <header class="headerWrap">
+            <a href="ddokddak.html"><h1>뚝딱뚝닭 강정</h1></a>
+        </header>
+        <!-- ========== header part ========== -->
+        <!-- ========== main part ========== -->
+        <form method="get" class="formWrap">
+            <div class="input01">
+            <input type="text" id="user_d" size="15" placeholder="아이디">
+            <input type="password" id="user_pwd" size="15" placeholder="비밀번호">
+            </div>
+            <div class="input02">
+            <div class="side radio01">
+                <img src="images/login/button11.png" alt="button" id="button01">
+                <p>아이디 저장</p>
+            </div>
+            <div class="side radio02">
+                <img src="images/login/button11.png" alt="button" id="button02">
+                <p>로그인 상태유지</p>
+            </div>
+            </div>
+            <input type="submit" value="로그인" class="input03">
+            <div class="input04">
+                <ul> 
+                    <li><a href="#" target="_blank">아이디 찾기</a></li>
+                    <li><a href="#" target="_blank">비밀번호 찾기</a></li>
+                    <li><a href="#" target="_blank">회원가입</a></li>
+                </ul>
+            </div>
+        </form>
+        <!-- ========== main part ========== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="js/login.js"></script>
+    </body>
+</html>

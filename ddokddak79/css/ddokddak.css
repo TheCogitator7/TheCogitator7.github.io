@@ -1,0 +1,171 @@
+@import url('common.css');
+
+/* ==================== swiper part ==================== */
+
+html, body {
+      position: relative;
+      height: 100%;
+}
+
+body {
+      background-color:black;    
+      font-size: 14px;
+      color: white;
+      margin: 0;
+      padding: 0;
+}
+
+swiper-container {
+      width: 100%;
+      height: 100%;
+}
+
+swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+/* ==================== swiper part ==================== */
+
+
+/* ==================== Menu part ==================== */
+
+.menuWrap{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.menuWrap>h2{
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    margin:6vw auto 3vw;
+}
+.menuWrap .menuBox{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:nowrap;
+    margin:3vw auto;
+}
+.menuBox>.menu{
+    background-color:white;
+    width:30%;
+    height:auto;
+}
+.menuBox>.menu img{
+    width:95%;
+    height:auto;
+    display:block;
+    margin:1vw auto;
+}
+.menu>div{
+    width:100%;
+    height:100px;
+    background-color:white;
+    /* border:1px solid red; */
+}
+.menu>div>p{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+    padding:1vw 0;
+}
+
+/* ==================== Menu part ==================== */
+
+/* ==================== Gallery part ==================== */
+
+.galWrap{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.galWrap>h2{
+    font-size:36px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    margin:6vw auto 3vw;
+}
+
+html, body {
+      position: relative;
+      height: 100%;
+}
+
+body {
+      background-color:black;
+      font-size: 14px;
+      color: white;
+      margin: 0;
+      padding: 0;
+}
+
+swiper-container {
+      width: 100%;
+      height: 100%;
+}
+
+swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+/* ==================== Gallery part ==================== */
+/* ==================== Map part ==================== */
+
+.mapWrap{
+      margin:0;
+      padding:0;
+      width:100%;
+      margin-bottom:2vw;
+}
+.mapWrap>h2{
+      font-size:36px;
+      font-weight:bold;
+      color:white;
+      text-align:center;
+      margin:6vw auto 3vw;
+}
+.mapWrap>.map{
+      width:60%;
+      height:500px;
+      background-color:#fff;
+      margin:0 auto;
+      position:relative;
+}
+.mapWrap>.map>iframe{
+      width:98%;
+      height:480px;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%, -50%);
+}
+
+
+/* ==================== Map part ==================== */
+

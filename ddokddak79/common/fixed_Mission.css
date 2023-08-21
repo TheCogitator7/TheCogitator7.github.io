@@ -1,0 +1,89 @@
+@import url('/common/core.css');
+
+html, body{
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+/* header,section{
+    margin:0;
+    padding:0;
+} */
+.hidden{
+    display:none;
+}
+
+/* 메인 CSS */
+section{
+    position:relative;
+    width:100%; height: 100%;
+    /* outline:1px solid red; */
+}
+#sec01{
+    background:#000 url(../img/bg01.jpg) no-repeat fixed left top/cover;/* 100% */
+
+    /*
+    색상 
+    background-color:blueviolet;
+     배경 이미지 
+    background-image:none;
+     배경 이미지 반복 여부 
+    background-repeat:none;
+     배경 이미지 고정 여부 
+    background-attachment:
+     배경 이미지 위치 
+    background-position:
+     배경 이미지 크기 
+    background-size:
+    */
+}
+#sec02{
+    background:#000 url(../img/bg02.jpg) no-repeat fixed left top/cover;/* 100% */
+}
+#sec03{
+    background:#000 url(../img/bg03.jpg) no-repeat fixed left top/cover;/* 100% */
+ }
+#sec04{
+    background:#000 url(../img/bg04.jpg) no-repeat fixed left top/cover;/* 100% */
+}
+
+
+/* 각 섹션 내부 테스트 */
+
+section>.left, .right{
+        position:absolute;
+        top:50%;
+        transform:translateY(-50%); /* 세로중앙정렬 */
+        color:#fff;
+        font-weight:bold;
+        font-size:3rem;
+        text-shadow:3px 3px 3px #666; /* 그림자 : x축 y축 z축 blur 색상 */
+}
+
+section>.left{
+    left:30%;
+    outline:1px solid blue;
+}
+section>.right{
+    right:30%;
+    outline:1px solid blue;
+}
+
+/* 각 버튼 */
+nav{width:100%;}
+
+a{
+    position:fixed;
+    width:100px;
+    height:100px;
+    text-align:center;
+    line-height: 100px;
+    color:#fff;
+    font-weight:bold;
+}
+a:first-child{top:0; left:0; background-color: red;}
+a:nth-child(2){top:0; right:0; background-color: green;}
+a:nth-child(3){bottom:0; left:0; background-color: blue;}
+a:last-child{bottom:0; right:0; background-color: brown;}
+

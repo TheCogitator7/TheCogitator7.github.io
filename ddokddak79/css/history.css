@@ -1,0 +1,50 @@
+@import url('ddokddak.css');
+
+.mainWrap{
+    margin:0;
+    padding:0;
+    width:100%;
+    box-sizing:border-box;    
+}
+.mainWrap>h2{
+    color:white;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    margin:2vw auto 3vw;
+}
+.mainWrap>.mainBox{
+    width:60%;
+    margin:3vw auto 4vw;
+}
+.mainBox>.firstBox{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-bottom:1vw;
+}
+.firstBox>img{
+    width:50%;
+}
+.firstBox>p{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    line-height:32px;
+    padding:1vw 3vw;
+}
+.mainBox>.secondBox{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:center;
+}
+.secondBox>img{
+    width:50%;
+}
+.secondBox>p{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    line-height:32px;
+    padding:1vw 3vw;
+}
